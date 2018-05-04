@@ -1,0 +1,21 @@
+body {
+	margin: auto;
+	font-family: Raleway;
+}
+
+header {
+	text-align: center;
+}
+
+header > nav {
+	text-align: center;
+	border-bottom: none;
+}
+
+article {
+    font-family: Lato;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
