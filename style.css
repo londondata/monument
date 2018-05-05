@@ -1,7 +1,8 @@
 body {
-	margin: auto;
-	font-family: "Raleway";
+/*	margin: auto;*/
+	font-family: "Raleway", comic-sans;
 	font-weight: 600;
+/*	max-width: 100%;*/
 }
 
 header {
@@ -11,7 +12,7 @@ header {
 header > nav {
 	text-align: center;
 	height: 3em;
-	margin: 20px 35px 10px 15px;
+	margin: 30px 35px 5px 35px;
 }
 
 header > nav > a {
@@ -19,18 +20,17 @@ header > nav > a {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #8397A8;
-	font-weight: 900;
 }
 
 header section {
 	background-image: url("pt-1/starter-code/images/blog_header_bg.jpg");
 	background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+/*    background-size: cover;*/
     background-attachment: fixed;
   /*  padding: 175px;*/
     height: 350px;
-	/*margin-bottom: 48px;*/
+	margin-bottom: 48px;
 }
 
 h1 {
@@ -38,15 +38,33 @@ h1 {
 	letter-spacing: 1em;
 	display: inline-block;
 	margin-top: 200px;
-
+	font-size: 2em;
 }
 
 article {
     font-family: Lato;
+    max-width: 50%;
+}
+
+article > img {
+	max-width: 50%;
 }
 
 h1, h2 {
 	text-transform: uppercase;
+}
+
+section {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+/*	flex-wrap: wrap;*/
+/*	max-width: 50%;*/
 }
 
 
