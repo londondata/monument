@@ -1,6 +1,7 @@
 body {
 	margin: auto;
-	font-family: Raleway;
+	font-family: "Raleway";
+	font-weight: 600;
 }
 
 header {
@@ -9,7 +10,35 @@ header {
 
 header > nav {
 	text-align: center;
-	border-bottom: none;
+	height: 3em;
+	margin: 20px 35px 10px 15px;
+}
+
+header > nav > a {
+	padding: 0 65px 0 65px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #8397A8;
+	font-weight: 900;
+}
+
+header section {
+	background-image: url("pt-1/starter-code/images/blog_header_bg.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  /*  padding: 175px;*/
+    height: 350px;
+	/*margin-bottom: 48px;*/
+}
+
+h1 {
+	color: white;
+	letter-spacing: 1em;
+	display: inline-block;
+	margin-top: 200px;
+
 }
 
 article {
@@ -18,4 +47,10 @@ article {
 
 h1, h2 {
 	text-transform: uppercase;
+}
+
+
+footer {
+	background-color: #D8F3F6;
+	height: 6em;
 }
