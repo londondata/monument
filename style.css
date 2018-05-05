@@ -3,6 +3,7 @@ body {
 	font-family: "Raleway", comic-sans;
 	font-weight: 600;
 	max-width: 100%;
+	box-sizing: border-box;
 }
 
 header {
@@ -45,17 +46,26 @@ h1, h2 {
 	text-transform: uppercase;
 }
 
+/*h2 {
+	font-family: "Raleway", comic-sans;
+	font-weight: 600;
+}*/
+
+/*h3 {
+	font-family: "Raleway", comic-sans;
+	font-weight: 600;
+}*/
 
 main {
 	display: flex;
 	flex-direction: row;
 	justify-content: left;
+	line-height: 1.618em;
 /*	flex-wrap: wrap;*/
 /*	max-width: 50%;*/
 }
 
 article {
-    font-family: Lato;
     padding: 3em;
     width: 75%;
 }
@@ -68,10 +78,16 @@ article > p {
 	width: 100%;
 }
 
+p {
+	font-family: Lato;
+    font-weight: 400;
+}
+
 aside {
 	width: 25%;
 	padding: 2%;
 }
+
 
 aside > img {
 	width: 100%;
@@ -80,4 +96,7 @@ aside > img {
 footer {
 	background-color: #D8F3F6;
 	height: 6em;
+	text-align: center;
+
 }
+
