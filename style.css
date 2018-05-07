@@ -69,11 +69,13 @@ main {
 	flex-direction: row;
 	justify-content: left;
 	line-height: 1.618em;
+	color: #44545E;
 /*	flex-wrap: wrap;*/
 /*	max-width: 50%;*/
 }
 
 article {
+	color: #44545E;
     padding: 3em;
     width: 75%;
 }
