@@ -1,5 +1,5 @@
 $("submit").on('click', function(e) {
-	var preventReload = e.preventDefault();
+	e.preventDefault();
 	console.log("ham?")
 });
 
