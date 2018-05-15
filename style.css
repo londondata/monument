@@ -76,6 +76,7 @@ main {
 
 article {
 	color: #44545E;
+	
     padding: 3em;
     width: 75%;
 }
@@ -161,4 +162,11 @@ textarea {
 	width: 100%;
 	display: block;
 	border: 2px solid black;
+}
+
+.error {
+	border: 2px solid #ED5254
+	font-style: "Anton";
+
+	display: none;
 }
